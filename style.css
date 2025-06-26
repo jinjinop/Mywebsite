@@ -1,5 +1,5 @@
 body {
-background-color: rgb(63, 64, 107);
+background-color: rgb(83, 63, 171);
 }
 h1{
     text-align: center;
@@ -14,4 +14,22 @@ h2{
 }
 h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.my-intrest {
+    background-color: rgb(50, 92, 231);
+    
+}
+.button {
+    background-color: rgb(145, 145, 249);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image-grid {
+display: grid;
+
+grid-template-rows: repeat(2, 1fr);
+gap: 5px;
+}
+.button{
+    background-color: rgb(115, 74, 163);
+    cursor: pointer;
 }
